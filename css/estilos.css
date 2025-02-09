@@ -4,19 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  width: 100vw;
-}
-body .container-app {
-  /* seccion footer */
-  /* fin footer */
-}
-body .container-app .hero {
+.hero {
+  scroll-snap-type: start;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -28,13 +17,36 @@ body .container-app .hero {
   background-repeat: no-repeat;
   background-size: cover;
 }
-body .container-app .hero h1 {
+.hero h1 {
   z-index: 1;
   color: #fff;
   font-size: 4rem;
   font-family: "Josefin Sans";
 }
-body .container-app .footer {
+.hero .countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans";
+  color: #fff;
+}
+.hero .countdown div {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 24px;
+}
+.hero button {
+  border-radius: 10px;
+  border: solid 1px #fff;
+  background: rgba(181, 43, 255, 0.3921568627);
+  padding: 1rem;
+}
+.hero button .btn-confirmar {
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -42,13 +54,14 @@ body .container-app .footer {
   justify-content: center;
   align-items: center;
   /* Dark mode colors and gradient */
-  background: #704279;
+  background: #3d1e4b;
   /* Fallback for browsers that don't support gradients */
-  background: linear-gradient(135deg, #704279 25%, #3d0088 25%, #3d0088 50%, #704279 50%, #704279 75%, #3d0088 75%, #3d0088);
+  background: linear-gradient(135deg, #3d1e4b 25%, #31163c 25%, #31163c 50%, #3d1e4b 50%, #3d1e4b 75%, #31163c 75%, #31163c);
   background-size: 40px 40px;
   /* Animation */
-  animation: move 5s linear infinite;
+  animation: move 10s linear infinite;
 }
+
 @keyframes move {
   0% {
     background-position: 0 0;
@@ -56,6 +69,26 @@ body .container-app .footer {
   100% {
     background-position: 40px 40px;
   }
+}
+/* fin footer */
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+body .container-app {
+  padding: 0;
 }
 
 /*# sourceMappingURL=estilos.css.map */

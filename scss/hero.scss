@@ -1,0 +1,44 @@
+.hero {
+    scroll-snap-type: start;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #000000c9, #00000058),
+        url("../img/pexels-johana-a-2105473018-30113681.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        z-index: 1;
+        color: #fff;
+        font-size: 4rem;
+        font-family: "Josefin Sans";
+    }
+    .countdown{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Josefin Sans";
+        color: #fff;
+        div{
+            text-align: center;
+            padding: 0.5rem;
+            font-size: 24px;
+        }
+    }
+    button{
+        border-radius: 10px;
+        border: solid 1px #fff;
+        background: #b52bff64;
+        padding: 1rem;
+        .btn-confirmar{
+            color: #fff;
+            font-size: 24px;
+        }
+    }
+    
+    
+}
