@@ -27,15 +27,23 @@
             font-size: 24px;
         }
     }
-    button{
-        border-radius: 10px;
-        border: solid 1px #fff;
-        background: #b52bff64;
-        padding: 1rem;
-        margin-top: 0.8rem;
-        .btn-confirmar{
+    .btn-confirmar{
+        button{
             color: #fff;
             font-size: 24px;
+            border: solid 1px #ffffff00;
+            border-radius: 10px;
+            transition: all .5s;
+            background: #b52bff64;
+            padding: 1rem;
+            margin-top: 0.8rem;
+            cursor: pointer; 
         }
+    }
+    
+    button:hover{
+        background-color: #b52bff;
+        border: solid 1px #fff;
+        color: #fff;
     }
 }

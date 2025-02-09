@@ -10,11 +10,11 @@ gsap.to(text, {
     ease: "none",
 });
 /* con nombre de clase del contenedor */
-/* gsap.from(".container2", {
+gsap.from(".mapa", {
     y: -100,
     opacity: 0,
     duration: 1,
-}); */
+});
 /* ScrollReveal */
 /* con nombre de clase del contenedor */
 ScrollReveal().reveal('h1', {
@@ -31,12 +31,12 @@ ScrollReveal().reveal('.countdown', {
     distance: '50%'
 });
 
-/* ScrollReveal().reveal('.equipo-container', {
+ScrollReveal().reveal('.footer', {
     delay: 200,
     origin: 'right',
     duration: 2000,
     distance: '50%'
-   }); */
+   });
 
 /* Cuenta regresiva */
 const days = document.getElementById("days"),
