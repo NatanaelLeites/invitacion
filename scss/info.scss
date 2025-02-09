@@ -1,34 +1,57 @@
 .info {
     padding: 3rem;
-    height: 100vh;
+    //height: 100vh;
     color: #fff;
-    .infoT{
+
+    .infoT {
         padding: .5rem;
+        display: flex;
+        align-items: center;
+
+        i {
+            font-size: 1.5rem;
+            padding: 0 .5rem;
+        }
     }
-    .mapa{
+    hr{
+        margin: 1rem;
+    }
+
+    .mapa {
         padding: 0 3rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        h4{
-            padding: 1rem;
+
+        h4 {
+            padding: 0 0 0.5rem 0;
+            display: flex;
+            align-items: center;
+            i {
+                font-size: 1.5rem;
+            }
         }
-        iframe{
+        p{
+            padding: 0.3rem;
+        }
+
+        iframe {
             height: 250px;
         }
     }
+
     /* Dark mode colors and gradient */
     background: $color-claro;
     /* Fallback for browsers that don't support gradients */
     background: linear-gradient(135deg,
-            $color-claro 25%,
-            $color-oscuro 25%,
-            $color-oscuro 50%,
-            $color-claro 50%,
-            $color-claro 75%,
-            $color-oscuro 75%,
-            $color-oscuro);
+        $color-claro 25%,
+        $color-oscuro 25%,
+        $color-oscuro 50%,
+        $color-claro 50%,
+        $color-claro 75%,
+        $color-oscuro 75%,
+        $color-oscuro);
     background-size: 40px 40px;
 
     /* Animation */
