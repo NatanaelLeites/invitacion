@@ -1,0 +1,17 @@
+Posibles fuentes: 
+Playfair Display + Montserrat Light
+Josefina + Times New Roman
+"Montserrat" + "Hammersmith One"
+"Bodoni" + "Josefin Sans"
+Pacifico + Open Sans
+
+1-font-family: "Bodoni Moda", serif;
+2-font-family: "Josefin Sans", serif;
+3-font-family: "Hammersmith One", serif;
+4-font-family: "Montserrat", serif;
+
+Fecha 22/03/2025 hora 21:00
+Chacra Jardin de Eventos
+Camino Conde 4761
+Vestimenta Formal
+Confirmar asistencia el 15 de marzo

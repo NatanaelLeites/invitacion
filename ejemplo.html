@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Mis 15 Años!</title>
+    <style>
+        body {
+            margin: 0;
+            overflow-y: hidden; /* Evita el scroll normal */
+            font-family: sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start; /* Alinea la sección al inicio */
+        }
+
+        #seccion1 {
+            background-color: #f0f0f0; /* Color de fondo para la primera sección */
+        }
+
+        #seccion2 {
+            background-color: #e0e0e0; /* Color de fondo para la segunda sección */
+        }
+
+        #seccion3 {
+            background-color: #d0d0d0; /* Color de fondo para la tercera sección */
+        }
+
+        /* Estilos adicionales para el contenido de cada sección */
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        /* Estilos para el contenedor principal */
+        .contenedor-secciones {
+            scroll-snap-type: y mandatory;
+            height: 100vh;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor-secciones">
+        <section id="seccion1">
+            <h1>¡Fiesta de 15 Años!</h1>
+            <p>Sábado, 15 de Junio de 2024</p>
+            <p>Salón de Eventos "El Castillo"</p>
+        </section>
+
+        <section id="seccion2">
+            <h2>Confirmación</h2>
+            <p>Por favor, confirma tu asistencia antes del 1 de Junio:</p>
+            <button>Confirmar</button>
+        </section>
+
+        <section id="seccion3">
+            <h2>¡Te esperamos!</h2>
+            <p>¡No te pierdas esta noche especial!</p>
+        </section>
+    </div>
+</body>
+</html>

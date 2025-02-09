@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+}
+body .container-app {
+  /* seccion footer */
+  /* fin footer */
+}
+body .container-app .hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7882352941), rgba(0, 0, 0, 0.3450980392)), url("../img/pexels-johana-a-2105473018-30113681.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .container-app .hero h1 {
+  z-index: 1;
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Josefin Sans";
+}
+body .container-app .footer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Dark mode colors and gradient */
+  background: #704279;
+  /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(135deg, #704279 25%, #3d0088 25%, #3d0088 50%, #704279 50%, #704279 75%, #3d0088 75%, #3d0088);
+  background-size: 40px 40px;
+  /* Animation */
+  animation: move 5s linear infinite;
+}
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
