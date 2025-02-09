@@ -5,31 +5,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* Dark mode colors and gradient */
-    background: $color-claro;
-    /* Fallback for browsers that don't support gradients */
-    background: linear-gradient(135deg,
-            $color-claro 25%,
-            $color-oscuro 25%,
-            $color-oscuro 50%,
-            $color-claro 50%,
-            $color-claro 75%,
-            $color-oscuro 75%,
-            $color-oscuro);
-    background-size: 40px 40px;
-
-    /* Animation */
-    animation: move 10s linear infinite;
 }
-
-@keyframes move {
-    0% {
-        background-position: 0 0;
-    }
-
-    100% {
-        background-position: 40px 40px;
-    }
-}
-/* fin footer */

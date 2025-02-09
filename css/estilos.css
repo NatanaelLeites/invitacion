@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Josefin Sans";
 }
 
 .hero {
@@ -21,13 +22,11 @@
   z-index: 1;
   color: #fff;
   font-size: 4rem;
-  font-family: "Josefin Sans";
 }
 .hero .countdown {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Josefin Sans";
   color: #fff;
 }
 .hero .countdown div {
@@ -53,6 +52,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.info {
+  padding: 3rem;
+  height: 100vh;
+  color: #fff;
   /* Dark mode colors and gradient */
   background: #3d1e4b;
   /* Fallback for browsers that don't support gradients */
@@ -60,6 +65,22 @@
   background-size: 40px 40px;
   /* Animation */
   animation: move 10s linear infinite;
+}
+.info .infoT {
+  padding: 0.5rem;
+}
+.info .mapa {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info .mapa h4 {
+  padding: 1rem;
+}
+.info .mapa iframe {
+  height: 250px;
 }
 
 @keyframes move {
@@ -70,7 +91,6 @@
     background-position: 40px 40px;
   }
 }
-/* fin footer */
 html {
   scroll-behavior: smooth;
 }
