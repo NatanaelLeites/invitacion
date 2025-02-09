@@ -39,6 +39,7 @@
   border: solid 1px #fff;
   background: rgba(181, 43, 255, 0.3921568627);
   padding: 1rem;
+  margin-top: 0.8rem;
 }
 .hero button .btn-confirmar {
   color: #fff;
