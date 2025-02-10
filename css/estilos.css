@@ -51,33 +51,10 @@
   color: #fff;
 }
 
-.footer {
-  width: 100vw;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #31163c;
-}
-.footer i {
-  color: #fff;
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-}
-.footer i a {
-  margin: 0.5rem;
-  color: #fff;
-  font-size: 1rem;
-}
-
 .info {
   padding: 3rem;
   color: #fff;
-  /* Dark mode colors and gradient */
   background: #3d1e4b;
-  /* Fallback for browsers that don't support gradients */
   background: linear-gradient(135deg, #3d1e4b 25%, #31163c 25%, #31163c 50%, #3d1e4b 50%, #3d1e4b 75%, #31163c 75%, #31163c);
   background-size: 40px 40px;
   /* Animation */
@@ -125,6 +102,75 @@
     background-position: 40px 40px;
   }
 }
+#mensajes {
+  padding: 3rem;
+  background-color: #3d1e4b;
+}
+#mensajes h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#mensajes #myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mensajes #myForm input,
+#mensajes #myForm textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 60vw;
+}
+#mensajes #myForm button {
+  background-color: #9900e0;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 0.5rem 2rem;
+  border: none;
+  font-size: 1.2rem;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+#mensajes #myForm button:hover {
+  background-color: #d270ff;
+}
+#mensajes #contenedor-mensajes {
+  margin-top: 20px;
+}
+#mensajes #contenedor-mensajes .mensaje {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#mensajes #contenedor-mensajes .mensaje .nombre {
+  font-weight: bold;
+}
+
+.footer {
+  width: 100vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #31163c;
+}
+.footer i {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.footer i a {
+  margin: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
 html {
   scroll-behavior: smooth;
 }

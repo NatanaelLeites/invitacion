@@ -8,8 +8,9 @@
 $color-oscuro: #31163c;
 $color-claro: #3d1e4b;
 @import './hero.scss';
-@import './footer.scss';
 @import './info.scss';
+@import './mensajes.scss';
+@import './footer.scss';
 
 html {
     scroll-behavior: smooth;
