@@ -9,13 +9,7 @@ gsap.to(text, {
     text: "15 Aithana",
     ease: "none",
 });
-/* con nombre de clase del contenedor */
-gsap.from(".mapa", {
-    y: -100,
-    opacity: 0,
-    duration: 1,
-});
-/* ScrollReveal */
+
 /* con nombre de clase del contenedor */
 ScrollReveal().reveal('h1', {
     delay: 0,
@@ -30,11 +24,17 @@ ScrollReveal().reveal('.countdown', {
     duration: 2000,
     distance: '50%'
 });
+/* con nombre de clase del contenedor */
+gsap.from(".mapa", {
+    y: -100,
+    opacity: 0,
+    duration: 1,
+});
 
 ScrollReveal().reveal('.footer', {
     delay: 200,
     origin: 'right',
-    duration: 2000,
+    duration: 1000,
     distance: '50%'
    });
 
