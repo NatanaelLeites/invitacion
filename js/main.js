@@ -31,13 +31,13 @@ gsap.from(".mapa", {
     duration: 1,
 });
 
-ScrollReveal().reveal('.footer', {
+/* ScrollReveal().reveal('.footer', {
     delay: 200,
     origin: 'right',
     duration: 1000,
     distance: '50%'
    });
-
+ */
 /* Cuenta regresiva */
 const days = document.getElementById("days"),
     hours = document.getElementById("hours"),
