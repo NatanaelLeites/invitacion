@@ -31,13 +31,13 @@ gsap.from(".mapa", {
     duration: 1,
 });
 
-/* ScrollReveal().reveal('.footer', {
+ScrollReveal().reveal('.regalos', {
     delay: 200,
     origin: 'right',
     duration: 1000,
     distance: '50%'
    });
- */
+
 /* Cuenta regresiva */
 const days = document.getElementById("days"),
     hours = document.getElementById("hours"),
@@ -65,3 +65,11 @@ if(minutos < 10){min.innerHTML = "0" + minutos}
 if(segundos < 10){sec.innerHTML = "0" + segundos}
 
 }, 1000);
+
+/* regalos */
+const btnRegalos = document.getElementById('btn-cuenta')
+const regalos = document.getElementById('cuenta')
+btnRegalos.addEventListener('click', ()=>{
+    regalos.classList.toggle('activo');
+    btnRegalos.classList.toggle('abrir');
+})

@@ -1,0 +1,34 @@
+.regalos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background: #b52bff64;
+    h2{}
+    .bx-tada{
+        font-size: 3.5rem;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .abrir{
+        transform: rotate();
+    }
+    .cuenta-bancaria{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: all .5s;
+        p{
+            text-align: center;
+        }       
+    }
+    .activo{
+        height: auto;
+        opacity: 1;
+    }
+}

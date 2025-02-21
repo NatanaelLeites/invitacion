@@ -9,6 +9,7 @@ $color-oscuro: #31163c;
 $color-claro: #3d1e4b;
 @import './hero.scss';
 @import './info.scss';
+@import './regalos.scss';
 @import './mensajes.scss';
 @import './footer.scss';
 
@@ -28,7 +29,6 @@ li {
 body {
     width: 100vw;
     overflow-x: hidden;
-
     .container-app {
         padding: 0;
     }
