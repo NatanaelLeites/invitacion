@@ -108,7 +108,7 @@
   justify-content: center;
   align-items: center;
   padding: 3rem;
-  background: rgba(181, 43, 255, 0.3921568627);
+  background: #b52bff;
 }
 .regalos .bx-tada {
   font-size: 3.5rem;
@@ -132,7 +132,8 @@
   text-align: center;
 }
 .regalos .cuenta-bancaria strong {
-  color: rgba(181, 43, 255, 0.3921568627);
+  color: #31163c;
+  font-size: 1.2rem;
 }
 .regalos .activo {
   height: auto;
@@ -232,6 +233,7 @@ li {
 body {
   width: 100vw;
   overflow-x: hidden;
+  background: #3d1e4b;
 }
 body .container-app {
   padding: 0;
