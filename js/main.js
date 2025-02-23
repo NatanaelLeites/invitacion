@@ -6,7 +6,7 @@ const text = document.getElementById('myText');
 
 gsap.to(text, {
     duration: 1.7,
-    text: "15 Aitana",
+    text: "15 Carlos",
     ease: "none",
 });
 
