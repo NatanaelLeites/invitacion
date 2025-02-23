@@ -102,6 +102,10 @@
     background-position: 40px 40px;
   }
 }
+.carrousel {
+  padding: 1rem;
+}
+
 .regalos {
   display: flex;
   flex-direction: column;
