@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6235294118), rgba(0, 0, 0, 0.1254901961)), url("../img/fondo1.jpeg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2666666667), rgba(0, 0, 0, 0.1176470588)), url("../img/fondo1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,10 +126,13 @@
   height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 .regalos .cuenta-bancaria p {
   text-align: center;
+}
+.regalos .cuenta-bancaria strong {
+  color: rgba(181, 43, 255, 0.3921568627);
 }
 .regalos .activo {
   height: auto;
