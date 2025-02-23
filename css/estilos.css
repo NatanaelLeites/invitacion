@@ -40,7 +40,7 @@
   border: solid 1px rgba(255, 255, 255, 0);
   border-radius: 10px;
   transition: all 0.5s;
-  background: rgba(181, 43, 255, 0.3921568627);
+  background: rgba(181, 43, 255, 0.6117647059);
   padding: 1rem;
   margin-top: 0.8rem;
   cursor: pointer;
@@ -108,7 +108,8 @@
   justify-content: center;
   align-items: center;
   padding: 3rem;
-  background: #b52bff;
+  background: rgba(181, 43, 255, 0.3568627451);
+  color: #fff;
 }
 .regalos .bx-tada {
   font-size: 3.5rem;
@@ -132,7 +133,7 @@
   text-align: center;
 }
 .regalos .cuenta-bancaria strong {
-  color: #31163c;
+  color: #e7bbff;
   font-size: 1.2rem;
 }
 .regalos .activo {
@@ -199,7 +200,6 @@
 }
 .footer .links {
   display: flex;
-  position: absolute;
   left: 5.5rem;
   top: 0.5rem;
 }

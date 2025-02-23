@@ -32,9 +32,9 @@ gsap.from(".mapa", {
 });
 
 ScrollReveal().reveal('.regalos', {
-    delay: 10,
+    delay: 0,
     origin: 'right',
-    duration: 1000,
+    duration: 250,
     distance: '50%'
    });
 
