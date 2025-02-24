@@ -71,5 +71,4 @@ const btnRegalos = document.getElementById('btn-cuenta')
 const regalos = document.getElementById('cuenta')
 btnRegalos.addEventListener('click', ()=>{
     regalos.classList.toggle('activo');
-    btnRegalos.classList.toggle('abrir');
 })

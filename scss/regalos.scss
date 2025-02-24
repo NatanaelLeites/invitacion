@@ -11,9 +11,10 @@
         font-size: 3.5rem;
         padding: 1rem;
         cursor: pointer;
+        transition: all .5s;
     }
     .abrir{
-        transform: rotate();
+        transform: rotate(-360deg);
     }
     .cuenta-bancaria{
         display: flex;
