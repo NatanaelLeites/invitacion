@@ -31,12 +31,12 @@ gsap.from(".mapa", {
     duration: 1,
 });
 
-ScrollReveal().reveal('.regalos', {
+/* ScrollReveal().reveal('.regalos', {
     delay: 0,
     origin: 'right',
     duration: 250,
     distance: '50%'
-   });
+   }); */
 
 /* Cuenta regresiva */
 const days = document.getElementById("days"),

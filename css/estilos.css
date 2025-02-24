@@ -111,6 +111,13 @@
   overflow: hidden;
   width: 100%;
 }
+.carousel .carousel-item img {
+  object-fit: contain;
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
 
 .regalos {
   display: flex;
