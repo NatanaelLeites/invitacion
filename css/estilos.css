@@ -102,14 +102,14 @@
     background-position: 40px 40px;
   }
 }
-.carrousel {
-  padding: 1rem;
-  overflow: hidden;
+.carousel {
+  height: 400px;
 }
-.carrousel .carousel-item {
-  height: 50vh;
+.carousel .carousel-item {
+  height: 400px;
   object-fit: cover;
   overflow: hidden;
+  width: 100%;
 }
 
 .regalos {
@@ -120,15 +120,13 @@
   padding: 3rem;
   background: rgba(181, 43, 255, 0.3568627451);
   color: #fff;
+  /* h2{} */
 }
 .regalos .bx-tada {
   font-size: 3.5rem;
   padding: 1rem;
   cursor: pointer;
   transition: all 0.5s;
-}
-.regalos .abrir {
-  transform: rotate(-360deg);
 }
 .regalos .cuenta-bancaria {
   display: flex;

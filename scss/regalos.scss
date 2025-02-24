@@ -6,15 +6,12 @@
     padding: 3rem;
     background: #b52bff5b;
     color: #fff;
-    h2{}
+    /* h2{} */
     .bx-tada{
         font-size: 3.5rem;
         padding: 1rem;
         cursor: pointer;
         transition: all .5s;
-    }
-    .abrir{
-        transform: rotate(-360deg);
     }
     .cuenta-bancaria{
         display: flex;

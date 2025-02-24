@@ -1,9 +1,9 @@
-.carrousel{
-    padding: 1rem;
-    overflow: hidden;
+.carousel{
+    height: 400px;
     .carousel-item{
-        height: 50vh;
+        height: 400px;
         object-fit: cover;
         overflow: hidden;
+        width: 100%;
     }
 }
